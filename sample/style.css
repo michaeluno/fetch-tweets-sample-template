@@ -1,0 +1,95 @@
+/*
+Template Name: Sample
+Template URI: http://en.michaeluno.jp
+Author: Michael Uno
+Author URI: http://en.michaeluno.jp
+Description: A very simple sample template added as a WordPress plugin.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: sample
+Text Domain: fetch-tweets
+*/
+
+.fetch-tweets-sample-container {
+	overflow-y: auto;	
+	overflow-x: hidden;
+	padding: 1em;
+	color: white;
+	background-color: #220e10;
+
+}
+.fetch-tweets-sample-follow-button {
+	float: right;
+	margin-bottom: 0.5em;	
+	font-size: 92%;
+}
+p.fetch-tweets-sample-user-description {
+	clear: right;
+}
+div.fetch-tweets-sample-heading p.fetch-tweets-sample-user-description {
+	font-size: 92%;
+	line-height: 110%;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+div.fetch-tweets-sample-heading iframe {
+	margin-bottom: 0;
+}
+.fetch-tweets-sample-item {
+	display: inline-block; 
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #E7E7E7;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;	
+	padding-top: 0.5em;
+	width: 100%;
+}
+.fetch-tweets-sample-retweet {
+}
+.fetch-tweets-sample-heading {
+	vertical-align: text-top;
+	line-height: 1em;
+}
+.fetch-tweets-sample-profile-image {
+	display: table-column;
+	float: left;
+	clear: left;
+	margin: 0 1em 0.25em 0;
+}
+.fetch-tweets-sample-user-name {
+	margin-bottom: 0.3em;
+	display: inline-block; 
+
+}
+.fetch-tweets-sample-user-name a {
+	text-decoration: none;
+}
+.fetch-tweets-sample-credit {
+	display: inline;
+	float: right;  
+	margin-left: 1em;
+	margin-top: 0.8em;
+	font-size: 80%;
+	line-height: 80%;
+	
+}
+.fetch-tweets-sample-credit a {
+	text-decoration: none;
+}
+.fetch-tweets-sample-tweet-created-at {
+}
+.fetch-tweets-sample-tweet-created-at a {
+}
+.fetch-tweets-sample-body {
+	clear: right;
+}
+div.fetch-tweets-sample-body p.fetch-tweets-sample-text {
+	margin-bottom: 0;
+	
+}
+.fetch-tweets-sample-retweet-credit {
+}
+.fetch-tweets-sample-retweet-credit a {
+}
